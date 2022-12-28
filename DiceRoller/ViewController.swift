@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imagesol: UIImageView!
-    @IBOutlet weak var resim: UIImageView!
+    
     @IBOutlet weak var imageSag: UIImageView!
     
+    private var diceNumberOne = 1
+    private var diceNumberTwo = 1
     
     
     
@@ -23,8 +25,11 @@ class ViewController: UIViewController {
 
     @IBAction func BTN(_ sender: Any) {
         
+        diceNumberOne = Int.random(in: 1...6)
+        diceNumberTwo = Int.random(in: 1...6)
         
-        
+        imagesol.image = UIImage(named: "\(diceNumberOne)")
+        imageSag.image = UIImage(named: "\(diceNumberTwo)")
         
         
         

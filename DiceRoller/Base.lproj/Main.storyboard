@@ -50,7 +50,6 @@
                     <connections>
                         <outlet property="imageSag" destination="y3k-XS-ZFG" id="FCL-Xk-EUw"/>
                         <outlet property="imagesol" destination="bXs-eB-zTg" id="YFN-MT-xoU"/>
-                        <outlet property="resim" destination="RMF-KB-lux" id="M3N-we-xNl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
