@@ -8,12 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var imagesol: UIImageView!
+    @IBOutlet weak var resim: UIImageView!
+    @IBOutlet weak var imageSag: UIImageView!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func BTN(_ sender: Any) {
+        
+        
+        
+        
+        
+        
+    }
+    
 }
 
